@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, ReactNode } from "react";
+import { useEffect, useRef, useState, ReactNode, forwardRef } from "react";
 
 interface ScrollRevealProps {
   children: ReactNode;
@@ -37,20 +37,24 @@ export const useInView = (threshold = 0.15) => {
   return { ref, isInView };
 };
 
-export const ScrollReveal = ({ children, className = "", delay = 0 }: ScrollRevealProps) => {
-  const { ref, isInView } = useInView();
+export const ScrollReveal = forwardRef<HTMLDivElement, ScrollRevealProps>(
+  ({ children, className = "", delay = 0 }, _forwardedRef) => {
+    const { ref, isInView } = useInView();
 
-  return (
-    <div
-      ref={ref}
-      className={className}
-      style={{
-        opacity: isInView ? 1 : 0,
-        transform: isInView ? "translateY(0)" : "translateY(30px)",
-        transition: `opacity 0.7s ease-out ${delay}s, transform 0.7s ease-out ${delay}s`,
-      }}
-    >
-      {children}
-    </div>
-  );
-};
+    return (
+      <div
+        ref={ref}
+        className={className}
+        style={{
+          opacity: isInView ? 1 : 0,
+          transform: isInView ? "translateY(0)" : "translateY(30px)",
+          transition: `opacity 0.7s ease-out ${delay}s, transform 0.7s ease-out ${delay}s`,
+        }}
+      >
+        {children}
+      </div>
+    );
+  }
+);
+
+ScrollReveal.displayName = "ScrollReveal";
