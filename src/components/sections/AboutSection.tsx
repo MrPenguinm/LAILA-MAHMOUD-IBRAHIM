@@ -10,7 +10,7 @@ const AboutSection = () => (
           <h2 className="mb-6 text-2xl font-semibold text-foreground font-display sm:text-3xl md:text-4xl">About</h2>
           <div className="space-y-4 text-sm leading-relaxed text-card-foreground/80 font-body sm:text-base">
             <p>
-              A dedicated social media specialist with a strong foundation in short-form video content creation, content strategy, and video editing. With experience across media companies and freelance projects, I bring creative ideas to life through compelling digital narratives.
+              A dedicated social media specialist with a strong foundation in content creation, content strategy, and video editing. With experience across media companies and freelance projects, I bring creative ideas to life through compelling digital narratives.
             </p>
             <p>
               Grounded in advanced Arabic language studies — including rhetoric and linguistic analysis — I offer a unique edge in crafting precise, culturally resonant scripts and copy for Arabic-speaking audiences. My approach blends creative storytelling with strategic thinking to build authentic brand presence.

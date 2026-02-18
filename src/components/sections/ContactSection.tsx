@@ -47,8 +47,8 @@ const ContactSection = () => {
               <a href="mailto:laylamaahmoud298@gmail.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
                 <Mail className="h-4 w-4 text-accent shrink-0" /> laylamaahmoud298@gmail.com
               </a>
-              <a href="tel:+201093584498" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                <Phone className="h-4 w-4 text-accent shrink-0" /> +20 109 358 4498
+              <a href="tel:+201016389857" className="flex items-center gap-3 hover:text-foreground transition-colors">
+                <Phone className="h-4 w-4 text-accent shrink-0" /> +20 101 638 9857
               </a>
               <span className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-accent shrink-0" /> Cairo, Egypt
