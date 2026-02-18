@@ -22,7 +22,7 @@ const Index = () => {
       <ContactSection />
 
       <footer className="py-6 text-center text-xs text-muted-foreground font-body sm:py-8 sm:text-sm">
-        © 2024 Laila Mahmoud Ibrahim. All rights reserved.
+        © 2026 Laila Mahmoud Ibrahim. All rights reserved.
       </footer>
     </main>
   );

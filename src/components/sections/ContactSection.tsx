@@ -27,7 +27,7 @@ const ContactSection = () => {
       return;
     }
 
-    window.location.href = `mailto:laylooy181@gmail.com?subject=Portfolio Contact from ${name} (${email})&body=${message}`;
+    window.location.href = `mailto:laylamaahmoud298@gmail.com?subject=Portfolio Contact from ${name} (${email})&body=${message}`;
 
     toast({ title: "Opening your email client…", description: "Complete sending in your mail app." });
     setTimeout(() => setSending(false), 2000);
@@ -44,8 +44,8 @@ const ContactSection = () => {
             <h2 className="mb-6 text-2xl font-semibold text-foreground font-display sm:mb-8 sm:text-3xl md:text-4xl">Get in Touch</h2>
 
             <div className="mb-6 flex flex-col gap-3 text-xs text-card-foreground/80 font-body sm:mb-8 sm:text-sm">
-              <a href="mailto:laylooy181@gmail.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                <Mail className="h-4 w-4 text-accent shrink-0" /> laylooy181@gmail.com
+              <a href="mailto:laylamaahmoud298@gmail.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
+                <Mail className="h-4 w-4 text-accent shrink-0" /> laylamaahmoud298@gmail.com
               </a>
               <a href="tel:+201093584498" className="flex items-center gap-3 hover:text-foreground transition-colors">
                 <Phone className="h-4 w-4 text-accent shrink-0" /> +20 109 358 4498

@@ -7,11 +7,11 @@ const experiences = [
     role: "Social Media",
     period: "03/2024 – Present",
     duties: [
+      "Community and performance management",
+      "Campaign coordination and scheduling",
       "Video content production for social media platforms",
       "Creative scriptwriting for digital campaigns",
-      "Campaign coordination and scheduling",
       "Arabic proofreading and linguistic editing",
-      "Community and performance management",
       "Photography support for content creation",
     ],
   },
