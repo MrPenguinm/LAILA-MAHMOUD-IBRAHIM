@@ -34,7 +34,7 @@ const HeroSection = ({ onScrollTo }: HeroSectionProps) => (
       </p>
       <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
         <Button asChild size="lg" className="w-full rounded-full px-8 font-body sm:w-auto">
-          <a href="/Laila_Mahmoud_Ibrahim_CV.pdf" download>
+          <a href="/LAILA MAHMOUD IBRAHIM -_Resume " download>
             <Download className="mr-2 h-4 w-4" /> Download CV
           </a>
         </Button>
