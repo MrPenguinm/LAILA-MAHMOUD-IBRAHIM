@@ -14,7 +14,7 @@ const SkillsSection = () => (
     <div className="absolute inset-0 bg-gradient-to-t from-accent/5 via-transparent to-transparent" />
     <div className="relative mx-auto max-w-3xl">
       <ScrollReveal>
-        <div className="rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 sm:p-10 md:p-12">
+        <div className="rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 hover:shadow-[0_8px_30px_hsl(45_55%_48%/0.08)] transition-shadow duration-500 sm:p-10 md:p-12">
           <h2 className="mb-6 text-2xl font-semibold text-foreground font-display sm:mb-8 sm:text-3xl md:text-4xl">
             <Sparkles className="mr-3 inline-block h-7 w-7 align-middle text-accent sm:h-8 sm:w-8" />
             Skills
