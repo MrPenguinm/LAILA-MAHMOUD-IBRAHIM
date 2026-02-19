@@ -6,7 +6,7 @@ const AboutSection = () => (
     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-accent/5 to-transparent" />
     <div className="relative mx-auto max-w-3xl">
       <ScrollReveal>
-        <div className="rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 hover:shadow-[0_8px_30px_hsl(45_55%_48%/0.08)] transition-shadow duration-500 sm:p-10 md:p-12">
+        <div className="rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 sm:p-10 md:p-12">
           <h2 className="mb-6 text-2xl font-semibold text-foreground font-display sm:text-3xl md:text-4xl">About</h2>
           <div className="space-y-4 text-sm leading-relaxed text-card-foreground/80 font-body sm:text-base">
             <p>

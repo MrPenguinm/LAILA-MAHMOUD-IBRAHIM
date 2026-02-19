@@ -23,7 +23,7 @@ const CapabilitiesSection = () => (
       <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
         {capabilities.map((cap, i) => (
           <ScrollReveal key={cap.title} delay={i * 0.1}>
-            <div className="group rounded-2xl bg-card/80 backdrop-blur-sm p-5 shadow-lg ring-1 ring-border/50 hover:shadow-[0_8px_30px_hsl(45_55%_48%/0.12)] hover:ring-accent/40 transition-all duration-300 h-full sm:p-7">
+            <div className="group rounded-2xl bg-card/80 backdrop-blur-sm p-5 shadow-lg ring-1 ring-border/50 hover:shadow-xl hover:ring-accent/30 transition-all duration-300 h-full sm:p-7">
               <cap.icon className="mb-3 h-6 w-6 text-accent group-hover:scale-110 transition-transform sm:mb-4 sm:h-7 sm:w-7" />
               <h3 className="mb-1.5 text-base font-semibold text-foreground font-display sm:mb-2 sm:text-lg">{cap.title}</h3>
               <p className="text-xs text-card-foreground/70 font-body leading-relaxed sm:text-sm">{cap.desc}</p>

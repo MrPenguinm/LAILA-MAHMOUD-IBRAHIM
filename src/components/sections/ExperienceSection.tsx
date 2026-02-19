@@ -55,7 +55,7 @@ const ExperienceSection = () => (
       <div className="space-y-6 sm:space-y-8">
         {experiences.map((exp, i) => (
           <ScrollReveal key={exp.company} delay={i * 0.12}>
-            <div className="group rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 hover:shadow-[0_8px_30px_hsl(45_55%_48%/0.12)] hover:ring-accent/40 transition-all duration-300 sm:p-8 md:p-10">
+            <div className="group rounded-2xl bg-card/80 backdrop-blur-sm p-6 shadow-lg ring-1 ring-border/50 hover:shadow-xl hover:ring-accent/30 transition-all duration-300 sm:p-8 md:p-10">
               <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
                 <div>
                   <h3 className="text-lg font-semibold text-foreground font-display sm:text-xl">{exp.company}</h3>
